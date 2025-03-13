@@ -1,63 +1,24 @@
-##Task
-To create a web application that can use any auth provider that you are familiar with and
-maintain auth sections in your application. The website should have the following elements:
+# Web Application
 
-● Landing Page
-● Login Page
-● Authenticated pages for:
-    ○ Home
-    ○ User
-    ○ Album
-    ○ Photo
-####
-Web Application Development Plan
-Introduction
-You are tasked with creating a web application. You can use any authentication provider you are familiar with and maintain authentication sections in your application. The website should have the following elements:
+This is a simple web application with a landing page, login page, and authenticated pages for Home, User, Album, and Photo.
 
-Landing Page
-Login Page
-Authenticated pages for:
-Home
-User
-Album
-Photo
-1. Landing Page
-The landing page is the first point of interaction for users. It should be visually appealing and provide an overview of the web application. Key elements to include:
+## Project Structure
 
-A welcoming header and brief introduction to the application.
-Navigation links to the Login Page and other public sections.
-A call-to-action button encouraging users to sign up or log in.
-2. Login Page
-The login page is where users authenticate themselves. It should be simple and secure. Key elements to include:
+- `public/`: Contains the HTML, CSS, and JavaScript files.
+- `src/`: Contains the JavaScript components for each page.
+- `.gitignore`: Specifies files and directories to be ignored by Git.
+- `README.md`: Provides an overview of the project.
+- `package.json`: Contains metadata about the project and its dependencies.
 
-Fields for username/email and password.
-A "Remember Me" checkbox for persistent login sessions.
-Links to password recovery and sign-up pages.
-Integration with the chosen authentication provider (e.g., OAuth, JWT).
-3. Authenticated Pages
-These pages require users to be logged in to access. Each page should have a consistent layout and navigation.
+## Getting Started
 
-a. Home Page
-The home page serves as the main dashboard for authenticated users. Key elements to include:
+1. Clone the repository.
+2. Open `public/index.html` in your browser to view the application.
 
-A personalized greeting with the user's name.
-Quick links to other authenticated pages (User, Album, Photo).
-A summary of recent activities or updates.
-b. User Page
-The user page displays the user's profile information. Key elements to include:
+## Authentication
 
-User's profile picture, name, and email.
-Options to edit profile information and change password.
-A list of user's recent activities or posts.
-c. Album Page
-The album page allows users to view and manage their photo albums. Key elements to include:
+You can use any authentication provider you are familiar with and maintain authentication sections in your application.
 
-A grid or list view of the user's albums.
-Options to create, edit, and delete albums.
-A search bar to quickly find specific albums.
-d. Photo Page
-The photo page displays photos within a selected album. Key elements to include:
+## Version Control
 
-A grid or list view of photos in the album.
-Options to upload, edit, and delete photos.
-A slideshow or lightbox feature for viewing photos in full size.
+This project is set up to be easily updated for version control and collaboration. Make sure to commit your changes regularly and push them to the repository.
