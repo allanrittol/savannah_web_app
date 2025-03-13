@@ -1,4 +1,4 @@
-##Task
+#Task
 To create a web application that can use any auth provider that you are familiar with and
 maintain auth sections in your application. The website should have the following elements:
 
@@ -9,9 +9,8 @@ maintain auth sections in your application. The website should have the followin
     ○ User
     ○ Album
     ○ Photo
-####
-Web Application Development Plan
-Introduction
+#Web Application Development Plan
+#Introduction
 You are tasked with creating a web application. You can use any authentication provider you are familiar with and maintain authentication sections in your application. The website should have the following elements:
 
 Landing Page
